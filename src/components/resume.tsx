@@ -1,9 +1,18 @@
 import React from "react";
+import TextType from "./TextType";
 
 const ResumeDownload: React.FC = () => {
   return (
-    <div className="text-center flex flex-col items-center gap-4 mb-4">
-      <h2 className="text-3xl text-violet-900 font-bold">Download My Resume</h2>
+    <div className="text-center flex flex-col items-center gap-4 mb-4 ml-6 mr-6">
+      <h2 className="text-4xl text-violet-900 font-bold">
+        <TextType
+          text={["Z:\\resume\\"]}
+          typingSpeed={75}
+          pauseDuration={1500}
+          showCursor={true}
+          cursorCharacter="_"
+        />
+      </h2>
       <p className="text-gray-200">
         Click the button below to download a PDF version of my resume.
       </p>

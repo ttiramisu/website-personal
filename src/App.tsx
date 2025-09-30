@@ -44,7 +44,7 @@ function App() {
           name="Jin (ttiramisu) Zijie"
           role="Web Developer | Python"
           description="I'm a leader and web developer with a love for creating innovative solutions. I enjoy working on web development and Python"
-          imageUrl="/public/me.jpg"
+          imageUrl="/me.jpg"
           typingSpeed={40}
         />
       </div>
