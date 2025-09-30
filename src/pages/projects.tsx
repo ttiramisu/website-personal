@@ -8,7 +8,7 @@ const Projects: React.FC = () => {
     <div className="min-h-screen bg-zinc-950 py-16 px-4">
       <h1 className="text-4xl font-bold text-violet-400 text-center mb-12">
         <TextType
-          text={["Projects in Z:\\"]}
+          text={["Z:\\projects"]}
           typingSpeed={75}
           pauseDuration={1500}
           showCursor={true}
