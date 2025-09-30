@@ -12,7 +12,7 @@ import ResumeDownload from "./components/resume";
 import "./App.css";
 
 // ICONS
-import { Linkedin, Github, Instagram } from "lucide-react";
+import { Linkedin, Github, Instagram, Mail } from "lucide-react";
 
 function App() {
   return (
@@ -80,6 +80,13 @@ function App() {
             className="mx-4 hover:text-violet-300 transition-colors duration-300 social-icons"
           >
             <Instagram size={36} />
+          </a>
+          <a
+            href="mailto:ttiramisu10@gmail.com"
+            rel="noopener noreferrer"
+            className="mx-4 hover:text-violet-300 transition-colors duration-300 social-icons"
+          >
+            <Mail size={36} />
           </a>
         </div>
       </div>
