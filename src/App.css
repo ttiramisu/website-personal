@@ -54,11 +54,21 @@ header {
   left: 0;
   bottom: 0;
   width: 0%;
-  height: 2px;            /* thickness of underline */
-  background-color: oklch(38% 0.189 293.745); /* color of underline */
+  height: 2px;
+  /* thickness of underline */
+  background-color: oklch(38% 0.189 293.745);
+  /* color of underline */
   transition: width 0.3s ease;
 }
 
-.text-type__cursor{
+.text-type__cursor {
   color: oklch(38% 0.189 293.745);
+}
+
+.social-icons, .proj-card {
+  transition: ease-in-out 0.3s;
+}
+
+.social-icons:hover, .proj-card:hover {
+  transform: translateY(-5px);
 }

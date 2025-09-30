@@ -7,7 +7,7 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
-    <div className="bg-zinc-900 p-6 rounded-xl shadow-lg hover:shadow-violet-400 transition-shadow duration-700 flex flex-col gap-3">
+    <div className="proj-card bg-zinc-900 p-6 rounded-xl shadow-lg hover:shadow-violet-400 transition-shadow duration-700 flex flex-col gap-3">
       <h3 className="text-xl font-bold text-violet-900">{project.name}</h3>
       <p className="text-gray-200">{project.desc}</p>
       <div className="flex flex-wrap gap-2">

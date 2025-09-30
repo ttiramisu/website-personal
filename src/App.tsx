@@ -11,6 +11,9 @@ import ResumeDownload from "./components/resume";
 // STYLES
 import "./App.css";
 
+// ICONS
+import { Linkedin, Github, Instagram } from "lucide-react";
+
 function App() {
   return (
     <div className="relative w-full h-screen">
@@ -26,7 +29,10 @@ function App() {
       </div>
 
       {/* Foreground content */}
-      <div className="main relative z-10 flex items-center justify-center h-full" id="home">
+      <div
+        className="main relative z-10 flex items-center justify-center h-full"
+        id="home"
+      >
         <div className="hero-text">
           <TextType
             text={["Z:\\ Hi, I'm Zijie!"]}
@@ -43,37 +49,37 @@ function App() {
         <AboutMeTerminal
           name="Jin (ttiramisu) Zijie"
           role="Web Developer | Python"
-          description="I'm a leader and web developer with a love for creating innovative solutions. I enjoy working on web development and Python"
+          description="I'm a leader and web developer with a love for creating innovative solutions. I enjoy working on web development and Python "
           imageUrl="/me.jpg"
           typingSpeed={40}
         />
       </div>
-      <div className="flex flex-col items-center justify-center text-violet-400 text-lg gap-4 mb-4">
+      <div className="flex flex-col items-center justify-center text-violet-400 text-xl gap-4 mb-4">
         Reach me here:
-        <div className="text-gray-200 text-4xl">
+        <div className=" flex text-gray-200 text-4xl">
           <a
             href="https://www.linkedin.com/in/jin-zijie"
             target="_blank"
             rel="noopener noreferrer"
-            className="mx-4 hover:text-violet-300 transition-colors duration-300"
+            className="mx-4 hover:text-violet-300 transition-colors duration-300 social-icons"
           >
-            <i className="bi bi-linkedin"></i>
+            <Github size={36} />
           </a>
           <a
             href="https://www.linkedin.com/in/jin-zijie"
             target="_blank"
             rel="noopener noreferrer"
-            className="mx-4 hover:text-violet-300 transition-colors duration-300"
+            className="mx-4 hover:text-violet-300 transition-colors duration-300 social-icons"
           >
-            <i className="bi bi-github"></i>
+            <Linkedin size={36} />
           </a>
           <a
             href="https://www.linkedin.com/in/jin-zijie"
             target="_blank"
             rel="noopener noreferrer"
-            className="mx-4 hover:text-violet-300 transition-colors duration-300"
+            className="mx-4 hover:text-violet-300 transition-colors duration-300 social-icons"
           >
-            <i className="bi bi-instagram"></i>
+            <Instagram size={36} />
           </a>
         </div>
       </div>
